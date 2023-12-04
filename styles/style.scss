@@ -1,3 +1,48 @@
 @charset "UTF-8";
 @import "./reset.scss";
 
+body {
+  height: 100vh;
+  background-color: #7D4AA9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.wrapper {
+  background-color: #191919;
+  max-width: 90%;
+  height: 93%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+
+    & > * {
+      background-color: #FFFFFF;
+      border-radius: 10px;
+    }
+  
+    .header {
+      
+    }
+
+    .grid__img {
+
+    }
+
+    .nav {
+
+    }
+
+    .grid__cell {
+
+    }
+
+    .blog-post {
+
+    }
+  }
+}
